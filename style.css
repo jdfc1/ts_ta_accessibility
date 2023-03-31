@@ -1,0 +1,28 @@
+ /* Estilo para os botões */
+ .abas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ddd;
+    padding: 10px;
+  }
+  .abas button {
+    background-color: #cccccc;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .abas button.active {
+    background-color: #fce9bc;
+    font-weight: bold;
+  }
+  
+  /* Estilo para o conteúdo das abas */
+  .conteudo {
+    background-color: #fff;
+    padding: 20px;
+  }
+  .conteudo h2 {
+    margin-top: 0;
+  }

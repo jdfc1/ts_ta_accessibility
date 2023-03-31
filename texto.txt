@@ -1,0 +1,25 @@
+Explicação do código:
+
+Primeiro, definimos o estilo para os
+botões e o conteúdo das abas usando CSS.
+
+Na marcação HTML, criamos os botões
+usando a tag button, e adicionamos o
+atributo aria-label para cada botão,
+especificando o nome da aba correspondente.
+
+Criamos os conteúdos das abas dentro
+de elementos div com a classe conteudo,
+e definimos um conteúdo inicial para
+a aba principal.
+
+Finalmente, adicionamos um ouvinte de
+clique para cada botão, que altera a
+classe ativa, oculta todos os conteúdos
+das abas e exibe somente o conteúdo
+correspondente à aba clicada.
+
+Com isso, temos um exemplo de interface
+de navegação com abas acessível para
+pessoas com deficiência visual
+através do uso de aria-label.
